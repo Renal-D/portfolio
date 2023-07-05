@@ -23,7 +23,7 @@ export default function Experience() {
           </a>
         </span>
       </h3>
-      <p className="pb-5 font-mono text-sm lg:text-base">Aug 2018 - August 2022</p>
+      <p className="pb-5 font-mono text-sm lg:text-base">Aug 2018 - Aug 2022</p>
       <ul className="flex list-inside list-disc flex-col gap-4 text-sm leading-relaxed lg:text-base">
         <li>
         I am a Fresh Graduate from S1 Department of Physics, Faculty of Mathematics and Natural Sciences, Universitas Negeri 
@@ -68,7 +68,7 @@ Malang.
         <li>
           One of the biggest events is the{" "}
           <a
-            href="https://www.instagram.com/komipaum/"
+            href="https://www.instagram.com/mfc.um/"
             className="text-underline"
             target="_blank"
             rel="noreferrer"
@@ -77,16 +77,7 @@ Malang.
           </a>
           , where I served as the Head of Publication and Documentation,
           responsible for organizing all the event{`'`}s visual documentation
-          and preparations, including photos, videos,{" "}
-          <a
-            href="https://www.instagram.com/mfc.um/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-underline"
-          >
-            media social content
-          </a>
-          , and media streaming.
+          and preparations, including photos, videos,{" "}media social content, and media streaming.
         </li>
       </ul>
     </div>

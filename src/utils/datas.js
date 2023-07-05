@@ -9,12 +9,12 @@ import nextjsIcon from "@icons/nextjs.svg";
 import nodejsIcon from "@icons/nodejs.svg";
 import npmIcon from "@icons/npm.svg";
 import yarnIcon from "@icons/yarn.svg";
-import xdIcon from "@icons/adobe-xd.svg";
+import dockerIcon from "@icons/docker.svg";
 import gitIcon from "@icons/git.svg";
 import githubIcon from "@icons/github.svg";
 import mysqlIcon from "@icons/mysql.svg";
 import photoshopIcon from "@icons/photoshop.svg";
-import splineIcon from "@icons/spline.svg";
+import airflowIcon from "@icons/airflow.svg";
 import vscodeIcon from "@icons/vscode.svg";
 import discordIcon from "@icons/discord.svg";
 import jupyterIcon from "@icons/jupyter.svg";
@@ -52,8 +52,8 @@ const tools = {
   Jupyter: { name: "Jupyter Lab", src: jupyterIcon, level: "Notebook" },
   Spark: { name: "Spark", src: sparkIcon, level: "Data Framework" },
   Tableau: { name: "Tableau", src: tableauIcon, level: "Data Visual" },
-  XD: { name: "Adobe XD", src: xdIcon, level: "UIUX Design tool" },
-  Spline: { name: "Spline", src: splineIcon, level: "Web 3D design" },
+  Docker: { name: "Docker", src: dockerIcon, level: "OS Containers" },
+  Airflow: { name: "Airflow", src: airflowIcon, level: "ETL tool" },
   Photoshop: { name: "Photoshop", src: photoshopIcon, level: "Image editor" },
   PremierePro: { name: "Premiere Pro", src: premiereproIcon, level: "Video editor" },
   Discord: { name: "Discord", src: discordIcon, level: "Meeting" },
@@ -75,21 +75,21 @@ const projects = [
   {
     id: 1,
     name: "Data Analyst",
-    desc: "My first project was created using HTML, CSS, and JavaScript. This website was created to fulfill the final assignment for the Belajar Dasar Pemrograman Web course from Dicoding.",
+    desc: "My first project was created using Python.",
     image: rose,
     web: "",
     repo: "https://github.com/renal-d",
-    stack: "HTML, CSS, JavaScript, Responsive Web Design",
+    stack: "Python, MySQL, Tableau",
     gif: "",
   },
   {
     id: 2,
     name: "Visualization Data",
-    desc: "This website serves as a platform to showcase hidden tourism spots in Bali, Indonesia. In addition to featuring these hidden gems, the website also offers an online booking system.",
+    desc: "This website serves as a platform to showcase hidden tourism spots in Bali, Indonesia. In addition to featuring these hidden gems.",
     image: de1,
     web: "",
     repo: "https://github.com/renal-d",
-    stack: "HTML, Javascript, PHP, MySQL, TailwindCSS, DaisyUI, AOS, SwiperJS",
+    stack: "MySQL, Tableau, Python, Powerpoint",
     gif: "",
   },
   {
@@ -99,13 +99,13 @@ const projects = [
     image: de,
     web: "",
     repo: "https://github.com/renal-d",
-    stack: "PySpark, ETL, Python, MySQL, Tableau",
+    stack: "PySpark, Python, MySQL, Airflow",
     gif: "",
   },
   {
     id: 4,
     name: "Data Analyst",
-    desc: "Learning process using spline with react for Interactive 3D Object Web projects",
+    desc: "analisis data",
     image: dawp,
     web: "",
     repo: "https://github.com/renal-d",
@@ -117,7 +117,7 @@ const projects = [
     name: "Nareswari",
     desc: "This website is designed as a digital learning tool to introduce the art of wayang kulit to the public. The website features interactive 3D models of wayang kulit.",
     image: abinawa,
-    web: "http://abinawa.vercel.app",
+    web: "https://renaldidwi.vercel.app/",
     repo: "https://github.com/renal-d",
     stack: "Vite, React, React-spline, React-router, TailwindCSS",
     gif: abinawaGif,
@@ -137,7 +137,7 @@ const projects = [
     name: "Parallax-Website",
     desc: "Welcome to Notes app! With this app, you can create, edit, delete and organize your notes. You can also sign up and log in to access your notes. This app I made for complete the Dicoding React Fundamental course.",
     image: parallax,
-    web: "https://notes-app-api-db-dicoding.vercel.app",
+    web: "https://renaldidwi.vercel.app/",
     repo: "https://github.com/renal-d",
     stack: "HTML, CSS, Javascript",
     gif: parallaxGif,
@@ -147,7 +147,7 @@ const projects = [
     name: "Portfolio",
     desc: "My first personal portfolio!! I designed it by combining different ideas from various sources. It also has a secret game that you can play on your desktop. Can you find it?",
     image: web_react,
-    web: "https://renaldi-dwi.vercel.app/",
+    web: "https://renaldidwi.vercel.app/",
     repo: "https://github.com/renal-d",
     stack: "NextJS, TailwindCSS, ThreeJS, React-spline",
     gif: renal_portGif,
@@ -157,7 +157,7 @@ const projects = [
     name: "footer",
     desc: "Trying to slice from Figma correctly to create a responsive website, and actually, it is already very good for being responsive (can be checked through inspect), but sometimes on certain screens, the margin is not read properly.",
     image: footer,
-    web: "https://bertumbuh.vercel.app/",
+    web: "https://renaldidwi.vercel.app/",
     repo: "https://github.com/renal-d",
     stack: "HTML, CSS",
     gif: footerGif,
@@ -177,7 +177,7 @@ const projects = [
     name: "Portfolio Website",
     desc: "This website provides information about various meals and how to cook them 🍴, using the API from TheMealDB. I created this website to complete the Dicoding Front End Fundamental course.",
     image: renal_port,
-    web: "https://renal-d.github.io/",
+    web: "https://renaldidwi.vercel.app/",
     repo: "https://github.com/renal-d/renal-d.github.io",
     stack: "NextJS, TailwindCSS, ThreeJS, React-spline",
     gif: renal_portGif,

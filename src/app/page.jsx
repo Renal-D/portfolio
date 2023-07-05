@@ -5,7 +5,7 @@ import secret from "@images/secret.webp";
 export const metadata = {
   title: "Renaldi Dwi | Portfolio",
   description:
-    "Renaldi Dwi is a Data Scientist specializes in building (and sometimes designing) amazing and new digital experiences.",
+    "Renaldi Dwi is a Data Engineer specializes in building (and sometimes designing) amazing and new digital experiences.",
 };
 
 export default function Home() {
@@ -28,13 +28,13 @@ export default function Home() {
           className="pb-4 text-4xl font-semibold text-primary md:pb-8 md:text-5xl lg:text-6xl"
           data-aos="fade-up"
         >
-          like things related to data.
+          like things related to technology.
         </h1>
         <p
           className="w-full text-sm leading-relaxed text-primary md:w-[540px] md:text-base"
           data-aos="zoom-in-up"
         >
-          I{`'`}m a data scientist specializing in analysis (and occasionally designing). Currently, I’m focused on esport industry. 
+          I{`'`}m a data engineering specializing in analysis (and occasionally designing). Currently, I’m focused on esport industry. 
         </p>
         <div
           className="mt-10 text-sm md:mt-14"
