@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { FiGithub, FiInstagram, FiLinkedin, FiTwitter } from "react-icons/fi";
-import { TbBrandTelegram } from "react-icons/tb";
+import { TbBrandTiktok } from "react-icons/tb";
 
 export default function Contact() {
   const sosmeds = [
@@ -21,9 +21,9 @@ export default function Contact() {
       link: "https://www.instagram.com/renaldii06/",
     },
     {
-      name: "Telegram",
-      icon: <TbBrandTelegram size={20} />,
-      link: "https://t.me/renmaruuqt",
+      name: "Tiktok",
+      icon: <TbBrandTiktok size={20} />,
+      link: "https://tiktok.com/renmaruuqt",
     },
     {
       name: "Twitter",
