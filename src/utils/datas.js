@@ -21,6 +21,7 @@ import jupyterIcon from "@icons/jupyter.svg";
 import premiereproIcon from "@icons/premiere-pro.svg";
 import tableauIcon from "@icons/tableau.svg";
 import sparkIcon from "@icons/Apache_Spark.svg";
+import bigqueryIcon from "@icons/bigquery.svg";
 
 // Project Images
 import de from "@images/de1.jpg";
@@ -47,15 +48,15 @@ const tools = {
   Git: { name: "Git", src: gitIcon, level: "Version control" },
   Github: { name: "Github", src: githubIcon, level: "Git hosting" },
   NPM: { name: "NPM", src: npmIcon, level: "Package manager" },
-  Yarn: { name: "Yarn", src: yarnIcon, level: "Dependency tool" },
+  // Yarn: { name: "Yarn", src: yarnIcon, level: "Dependency tool" },
   VSCode: { name: "VSCode", src: vscodeIcon, level: "Code editor" },
   Jupyter: { name: "Jupyter Lab", src: jupyterIcon, level: "Notebook" },
+  Bigquery: { name: "Bigquery", src: bigqueryIcon, level: "Data Warehouse" },
   Spark: { name: "Spark", src: sparkIcon, level: "Data Framework" },
-  Tableau: { name: "Tableau", src: tableauIcon, level: "Data Visual" },
-  Docker: { name: "Docker", src: dockerIcon, level: "OS Containers" },
+  // Docker: { name: "Docker", src: dockerIcon, level: "OS Containers" },
   Airflow: { name: "Airflow", src: airflowIcon, level: "ETL tool" },
   Photoshop: { name: "Photoshop", src: photoshopIcon, level: "Image editor" },
-  PremierePro: { name: "Premiere Pro", src: premiereproIcon, level: "Video editor" },
+  // PremierePro: { name: "Premiere Pro", src: premiereproIcon, level: "Video editor" },
   Discord: { name: "Discord", src: discordIcon, level: "Meeting" },
 };
 
@@ -63,11 +64,12 @@ const stacks = {
   MySQL: { name: "MySQL", src: mysqlIcon, level: "Intermediate" },
   Python: { name: "Python", src: pythonIcon, level: "Beginner" },
   Java: { name: "Java", src: javaIcon, level: "Beginner" },
-  HTML: { name: "HTML", src: htmlIcon, level: "Beginner" },
-  CSS: { name: "CSS", src: cssIcon, level: "Beginner" },
-  JS: { name: "Javascript", src: jsIcon, level: "Beginner" },
-  Tailwind: { name: "TailwindCSS", src: tailwindIcon, level: "Beginner" },
-  NextJS: { name: "NextJS", src: nextjsIcon, level: "Beginner" },
+  Tableau: { name: "Tableau", src: tableauIcon, level: "Beginner" },
+  // HTML: { name: "HTML", src: htmlIcon, level: "Beginner" },
+  // CSS: { name: "CSS", src: cssIcon, level: "Beginner" },
+  // JS: { name: "Javascript", src: jsIcon, level: "Beginner" },
+  // Tailwind: { name: "TailwindCSS", src: tailwindIcon, level: "Beginner" },
+  // NextJS: { name: "NextJS", src: nextjsIcon, level: "Beginner" },
   NodeJS: { name: "NodeJS", src: nodejsIcon, level: "Beginner" },
 };
 

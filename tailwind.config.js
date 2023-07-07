@@ -21,10 +21,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#9CA3AF",
-        secondary: "#E5E7EB",
+        primary: "#9CA3AF",   //#9CA3AF  #292929
+        secondary: "#E5E7EB", //#E5E7EB  #OF1923
         accent: "#FF4655",
-        base_col: "#0A192F",
+        base_col: "#0E1821", //#0A192F  #ECE8E1
         base_col_darker: "#151E31",
       },
       fontFamily: {
